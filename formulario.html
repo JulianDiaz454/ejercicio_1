@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>FORMULARIO DE INFORMACIÓN PERSONAL</h1>
+        <hr>
+        <ul>
+            <li><a href="index.html">Blog</a></li>
+            <li><a href="noticias.html">Noticias</a></li>
+        </ul>
+        <hr>
+    </header>
+    <main>
+        <center>
+        <fieldset style="margin-inline: 190px; margin-block: 20px;">
+            <legend>INGRESA TU INFORMACIÓN</legend>
+            <form action="" method="get" enctype="multipart/form-data">
+                <div>
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido:  </label>
+                    <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo:  </label>
+                    <input type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+                </div>
+                <br>
+                <div>
+                    <label for="password">Contraseña:  </label>
+                    <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
+                </div>
+                <div>
+                    <h5>¿Donde vives?</h5>
+                    <select name="residencia" id="vie">
+                        <option value="">Lebrija</option>
+                        <option value="">Giron</option>
+                        <option value="">Bucaramanga</option>
+                    </select>
+                </div>
+                <br>
+                <br>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </fieldset>
+        </center>
+    </main>
+</body>
+</html>
